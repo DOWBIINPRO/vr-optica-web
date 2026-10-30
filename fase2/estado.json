@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-10-30 (hora de Ecuador)",
-  "etapa_actual": "Etapa 3 · Admin: gestión de clientes (siguiente)",
+  "etapa_actual": "Etapa 4 · Configuración central (siguiente)",
   "etapas": [
     {
       "n": 1,
@@ -29,7 +29,16 @@
     {
       "n": 3,
       "titulo": "Admin: gestión de clientes (editar, suspender y reactivar, historial)",
-      "estado": "pendiente"
+      "estado": "hecha",
+      "commit": "82293f9",
+      "imagenes": [
+        "img/f2e3_01_lista_clientes.png",
+        "img/f2e3_02_ficha_suspendida_reactivar.png",
+        "img/f2e3_03_datos_registro.png",
+        "img/f2e3_04_mensajes_historial.png",
+        "img/f2e3_05_reactivada.png",
+        "img/f2e3_06_corregir_datos.png"
+      ]
     },
     {
       "n": 4,

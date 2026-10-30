@@ -1,0 +1,25 @@
+{
+  "actualizado": "2026-10-30 01:45 (hora de Ecuador)",
+  "etapa_actual": "Etapa 2 · Mi perfil y configuración comercial (siguiente)",
+  "etapas": [
+    {"n":1,"titulo":"Reglas de compra: mínimo 6 persona natural / 12 comercial; condiciones de envío","estado":"hecha","commit":"23c08eb","imagenes":["img/f2e1_01_carrito_minimo6.png","img/f2e1_02_carrito_valido.png","img/f2e1_03_checkout_condiciones.png"]},
+    {"n":2,"titulo":"Mi perfil y configuración comercial (foto, biografía, cuenta suspendida)","estado":"pendiente"},
+    {"n":3,"titulo":"Admin: gestión de clientes (editar, suspender y reactivar, historial)","estado":"pendiente"},
+    {"n":4,"titulo":"Configuración central (app_settings)","estado":"pendiente"},
+    {"n":5,"titulo":"Número de contacto visible en Comercial y editable en Admin","estado":"pendiente"},
+    {"n":6,"titulo":"Rediseño visual de las pantallas restantes","estado":"pendiente"},
+    {"n":7,"titulo":"Rendimiento (fluidez)","estado":"pendiente"},
+    {"n":8,"titulo":"Revisión de seguridad","estado":"pendiente"},
+    {"n":9,"titulo":"APK de prueba (Comercial y Admin)","estado":"pendiente"}
+  ],
+  "decisiones": [
+    "D1 Precios: mayorista → ópticas y optómetras; precio de venta → persona natural (solo los que faltaban).",
+    "D2 Mínimos: 6 piezas persona natural; 12 piezas comerciales a precio mayorista.",
+    "D3 Envío: sin precio fijo; depende del peso, el destino y la entrega; pedidos de unas 30 docenas o más van por carga o cooperativa.",
+    "D5 Cuenta suspendida: puede entrar y ver su perfil, su historial y el contacto; no ve precios ni compra; puede escribir al admin.",
+    "D8 El cliente edita nombre, apellido, teléfono, ciudad, dirección y biografía; RUC, cédula y permisos solo el admin.",
+    "D10 Contacto: +593 988416171.",
+    "Pendiente: D4 (umbral de $300). Diferido: 222 precios mayoristas distintos del archivo (se mantienen los actuales)."
+  ],
+  "apk": []
+}

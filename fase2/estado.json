@@ -1,156 +1,163 @@
 {
-  "actualizado": "2026-10-30",
-  "etapa_actual": "Fase 2 completa — pendiente pruebas en dispositivo y revisión de robin",
-  "etapas": [
-    {
-      "n": 1,
-      "titulo": "Reglas de compra: mínimo 6 persona natural / 12 comercial; condiciones de envío",
-      "estado": "hecha",
-      "commit": "23c08eb",
-      "imagenes": [
-        "img/f2e1_01_carrito_minimo6.png",
-        "img/f2e1_02_carrito_valido.png",
-        "img/f2e1_03_checkout_condiciones.png"
-      ]
-    },
-    {
-      "n": 2,
-      "titulo": "Mi perfil y configuración comercial (foto, biografía, cuenta suspendida)",
-      "estado": "hecha",
-      "commit": "e7310ac",
-      "imagenes": [
-        "img/f2e2_01_cuenta_accesos.png",
-        "img/f2e2_02_mi_perfil.png",
-        "img/f2e2_03_verificacion_apariencia.png",
-        "img/f2e2_04_cuenta_suspendida.png",
-        "img/f2e2_05_mensaje_admin.png"
-      ]
-    },
-    {
-      "n": 3,
-      "titulo": "Admin: gestión de clientes (editar, suspender y reactivar, historial)",
-      "estado": "hecha",
-      "commit": "82293f9",
-      "imagenes": [
-        "img/f2e3_01_lista_clientes.png",
-        "img/f2e3_02_ficha_suspendida_reactivar.png",
-        "img/f2e3_03_datos_registro.png",
-        "img/f2e3_04_mensajes_historial.png",
-        "img/f2e3_05_reactivada.png",
-        "img/f2e3_06_corregir_datos.png"
-      ]
-    },
-    {
-      "n": 4,
-      "titulo": "Configuración central de la app Comercial (secciones, pagos, entregas, aviso, contacto, apariencia)",
-      "estado": "hecha",
-      "commit": "ebd16aa",
-      "imagenes": [
-        "img/f2e4_01_config_secciones.png",
-        "img/f2e4_02_config_comercial_visual.png",
-        "img/f2e4_03_inicio_aviso_un_catalogo.png",
-        "img/f2e4_04_catalogo_sin_selector.png",
-        "img/f2e4_05_checkout_entregas_condiciones.png"
-      ]
-    },
-    {
-      "n": 5,
-      "titulo": "Número de contacto visible en Comercial y editable en Admin",
-      "estado": "hecha",
-      "commit": "a191920",
-      "imagenes": [
-        "img/f2e5_01_cuenta_contactar.png",
-        "img/f2e5_02_contactar_llamar_whatsapp.png",
-        "img/f2e5_03_mi_perfil_contacto.png",
-        "img/f2e5_04_checkout_contacto.png",
-        "img/f2e5_05_suspendida_contacto.png",
-        "img/f2e5_06_admin_contacto.png"
-      ]
-    },
-    {
-      "n": 6,
-      "titulo": "Rediseño visual de las pantallas restantes",
-      "estado": "hecha",
-      "commit": "6931cad",
-      "imagenes": [
-        "img/f2e6_01_catalogo_cristal.png",
-        "img/f2e6_02_hoja_filtros.png",
-        "img/f2e6_03_detalle_producto.png",
-        "img/f2e6_04_detalle_compra.png",
-        "img/f2e6_05_carrito.png",
-        "img/f2e6_06_checkout.png",
-        "img/f2e6_07_actividad_pedidos.png",
-        "img/f2e6_08_informar_pago.png",
-        "img/f2e6_09_fondo_luminancia.png",
-        "img/f2e6_10_admin_panel.png",
-        "img/f2e6_11_admin_pedidos_pagos.png",
-        "img/f2e6_12_admin_ajustes_pago.png",
-        "img/f2e6_13_admin_productos.png",
-        "img/f2e6_14_admin_tarifas.png",
-        "img/f2e6_15_admin_inventario.png",
-        "img/f2e6_16_admin_catalogo.png",
-        "img/f2e6_17_admin_auditoria.png",
-        "img/f2e6_18_admin_cuenta.png"
-      ]
-    },
-    {
-      "n": 7,
-      "titulo": "Rendimiento (fluidez)",
-      "estado": "hecha",
-      "commit": "1e0529d",
-      "imagenes": [
-        "img/f2e7_01_catalogo_cristal.png",
-        "img/f2e7_07_actividad_pedidos.png",
-        "img/f2e7_10_admin_panel.png"
-      ]
-    },
-    {
-      "n": 8,
-      "titulo": "Revisión de seguridad",
-      "estado": "hecha",
-      "commit": "f18e5e6"
-    },
-    {
-      "n": 9,
-      "titulo": "APK de prueba (Comercial y Admin)",
-      "estado": "hecha",
-      "commit": "54a5786"
-    }
-  ],
-  "decisiones": [
-    "D1 Precios: mayorista → ópticas y optómetras; precio de venta → persona natural (solo los que faltaban).",
-    "D2 Mínimos: 6 piezas persona natural; 12 piezas comerciales a precio mayorista.",
-    "D3 Envío: sin precio fijo; depende del peso, el destino y la entrega; pedidos de unas 30 docenas o más van por carga o cooperativa.",
-    "D5 Cuenta suspendida: puede entrar y ver su perfil, su historial y el contacto; no ve precios ni compra; puede escribir al admin.",
-    "D8 El cliente edita nombre, apellido, teléfono, ciudad, dirección y biografía; RUC, cédula y permisos solo el admin.",
-    "D10 Contacto: +593 988416171.",
-    "Pendiente: D4 (umbral de $300). Diferido: 222 precios mayoristas distintos del archivo (se mantienen los actuales)."
-  ],
-  "apk": [
-    {
-      "app": "comercial",
-      "paquete": "com.optica.app.optica_app",
-      "version": "0.11.0+110",
-      "abi": "arm64-v8a",
-      "url": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/vr-optica-comercial-fase2-0.11.0-54a5786-arm64.apk",
-      "sha256": "db388d086dc71bf82bb6a3622356ff1dafd1f9008e96a69b392679d999c06c57",
-      "firma": "debug",
-      "dispositivo": "NO VERIFICADO",
-      "nombre": "VR Óptica Comercial 0.11.0 (arm64) · SHA-256 db388d086dc7…"
-    },
-    {
-      "app": "admin",
-      "paquete": "com.optica.app.optica_app.admin",
-      "version": "0.11.0+110",
-      "abi": "arm64-v8a",
-      "url": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/vr-optica-admin-fase2-0.11.0-54a5786-arm64.apk",
-      "sha256": "2cfb59821c91ab5feb154c7439389e22dd0b656cacd612188c6b6c3e0f287881",
-      "firma": "debug",
-      "dispositivo": "NO VERIFICADO",
-      "nombre": "VR Óptica Admin 0.11.0 (arm64) · SHA-256 2cfb59821c91…"
-    }
-  ],
-  "apk_release": "https://github.com/DOWBIINPRO/optica-app/releases/tag/apk-fase2-0.11.0-54a5786",
-  "apk_manifest": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/MANIFEST.json",
-  "apk_sha256sums": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/SHA256SUMS.txt"
+ "actualizado": "2026-10-30",
+ "etapa_actual": "Catálogo nuevo VÉRTICE integrado — pendiente pruebas en dispositivo y revisión de robin",
+ "etapas": [
+  {
+   "n": 1,
+   "titulo": "Reglas de compra: mínimo 6 persona natural / 12 comercial; condiciones de envío",
+   "estado": "hecha",
+   "commit": "23c08eb",
+   "imagenes": [
+    "img/f2e1_01_carrito_minimo6.png",
+    "img/f2e1_02_carrito_valido.png",
+    "img/f2e1_03_checkout_condiciones.png"
+   ]
+  },
+  {
+   "n": 2,
+   "titulo": "Mi perfil y configuración comercial (foto, biografía, cuenta suspendida)",
+   "estado": "hecha",
+   "commit": "e7310ac",
+   "imagenes": [
+    "img/f2e2_01_cuenta_accesos.png",
+    "img/f2e2_02_mi_perfil.png",
+    "img/f2e2_03_verificacion_apariencia.png",
+    "img/f2e2_04_cuenta_suspendida.png",
+    "img/f2e2_05_mensaje_admin.png"
+   ]
+  },
+  {
+   "n": 3,
+   "titulo": "Admin: gestión de clientes (editar, suspender y reactivar, historial)",
+   "estado": "hecha",
+   "commit": "82293f9",
+   "imagenes": [
+    "img/f2e3_01_lista_clientes.png",
+    "img/f2e3_02_ficha_suspendida_reactivar.png",
+    "img/f2e3_03_datos_registro.png",
+    "img/f2e3_04_mensajes_historial.png",
+    "img/f2e3_05_reactivada.png",
+    "img/f2e3_06_corregir_datos.png"
+   ]
+  },
+  {
+   "n": 4,
+   "titulo": "Configuración central de la app Comercial (secciones, pagos, entregas, aviso, contacto, apariencia)",
+   "estado": "hecha",
+   "commit": "ebd16aa",
+   "imagenes": [
+    "img/f2e4_01_config_secciones.png",
+    "img/f2e4_02_config_comercial_visual.png",
+    "img/f2e4_03_inicio_aviso_un_catalogo.png",
+    "img/f2e4_04_catalogo_sin_selector.png",
+    "img/f2e4_05_checkout_entregas_condiciones.png"
+   ]
+  },
+  {
+   "n": 5,
+   "titulo": "Número de contacto visible en Comercial y editable en Admin",
+   "estado": "hecha",
+   "commit": "a191920",
+   "imagenes": [
+    "img/f2e5_01_cuenta_contactar.png",
+    "img/f2e5_02_contactar_llamar_whatsapp.png",
+    "img/f2e5_03_mi_perfil_contacto.png",
+    "img/f2e5_04_checkout_contacto.png",
+    "img/f2e5_05_suspendida_contacto.png",
+    "img/f2e5_06_admin_contacto.png"
+   ]
+  },
+  {
+   "n": 6,
+   "titulo": "Rediseño visual de las pantallas restantes",
+   "estado": "hecha",
+   "commit": "6931cad",
+   "imagenes": [
+    "img/f2e6_01_catalogo_cristal.png",
+    "img/f2e6_02_hoja_filtros.png",
+    "img/f2e6_03_detalle_producto.png",
+    "img/f2e6_04_detalle_compra.png",
+    "img/f2e6_05_carrito.png",
+    "img/f2e6_06_checkout.png",
+    "img/f2e6_07_actividad_pedidos.png",
+    "img/f2e6_08_informar_pago.png",
+    "img/f2e6_09_fondo_luminancia.png",
+    "img/f2e6_10_admin_panel.png",
+    "img/f2e6_11_admin_pedidos_pagos.png",
+    "img/f2e6_12_admin_ajustes_pago.png",
+    "img/f2e6_13_admin_productos.png",
+    "img/f2e6_14_admin_tarifas.png",
+    "img/f2e6_15_admin_inventario.png",
+    "img/f2e6_16_admin_catalogo.png",
+    "img/f2e6_17_admin_auditoria.png",
+    "img/f2e6_18_admin_cuenta.png"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Rendimiento (fluidez)",
+   "estado": "hecha",
+   "commit": "1e0529d",
+   "imagenes": [
+    "img/f2e7_01_catalogo_cristal.png",
+    "img/f2e7_07_actividad_pedidos.png",
+    "img/f2e7_10_admin_panel.png"
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Revisión de seguridad",
+   "estado": "hecha",
+   "commit": "f18e5e6"
+  },
+  {
+   "n": 9,
+   "titulo": "APK de prueba (Comercial y Admin)",
+   "estado": "hecha",
+   "commit": "54a5786"
+  },
+  {
+   "n": 10,
+   "titulo": "Catálogo nuevo VÉRTICE: 346 armazones (SENMA SM20+, #HASHTAG HA94+, @ver) con fotos en Storage",
+   "estado": "hecha",
+   "commit": "df67f8c"
+  }
+ ],
+ "decisiones": [
+  "D1 Precios: mayorista → ópticas y optómetras; precio de venta → persona natural (solo los que faltaban).",
+  "D2 Mínimos: 6 piezas persona natural; 12 piezas comerciales a precio mayorista.",
+  "D3 Envío: sin precio fijo; depende del peso, el destino y la entrega; pedidos de unas 30 docenas o más van por carga o cooperativa.",
+  "D5 Cuenta suspendida: puede entrar y ver su perfil, su historial y el contacto; no ve precios ni compra; puede escribir al admin.",
+  "D8 El cliente edita nombre, apellido, teléfono, ciudad, dirección y biografía; RUC, cédula y permisos solo el admin.",
+  "D10 Contacto: +593 988416171.",
+  "Pendiente: D4 (umbral de $300). Diferido: 222 precios mayoristas distintos del archivo (se mantienen los actuales).",
+  "Catálogo VÉRTICE: C01, C02… son variantes numeradas, no colores reales; 304 fotos de baja resolución quedan en revisión, sin publicar; 81 modelos ya existentes no se tocaron."
+ ],
+ "apk": [
+  {
+   "app": "comercial",
+   "paquete": "com.optica.app.optica_app",
+   "version": "0.11.1+111",
+   "abi": "arm64-v8a",
+   "url": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.1-df67f8c/OPTICA-Comercial-0.11.1%2B111-arm64-debug.apk",
+   "sha256": "1c679fd8d009e6711eb8733774c87f9fb08f170ebdc576b67e66916080aac711",
+   "firma": "debug",
+   "dispositivo": "NO VERIFICADO",
+   "nombre": "VR Óptica Comercial 0.11.1 (arm64) · SHA-256 1c679fd8d009…"
+  },
+  {
+   "app": "admin",
+   "paquete": "com.optica.app.optica_app.admin",
+   "version": "0.11.1+111",
+   "abi": "arm64-v8a",
+   "url": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.1-df67f8c/OPTICA-Admin-0.11.1%2B111-arm64-debug.apk",
+   "sha256": "821c82fbc1d80c0ce174435796be696271a6a856368c0dafb2bd343107e44b42",
+   "firma": "debug",
+   "dispositivo": "NO VERIFICADO",
+   "nombre": "VR Óptica Admin 0.11.1 (arm64) · SHA-256 821c82fbc1d8…"
+  }
+ ],
+ "apk_release": "https://github.com/DOWBIINPRO/optica-app/releases/tag/apk-fase2-0.11.1-df67f8c",
+ "apk_manifest": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.1-df67f8c/MANIFEST.md",
+ "apk_sha256sums": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.1-df67f8c/SHA256SUMS.txt"
 }

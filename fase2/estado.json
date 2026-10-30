@@ -1,16 +1,66 @@
 {
-  "actualizado": "2026-10-30 01:45 (hora de Ecuador)",
-  "etapa_actual": "Etapa 2 · Mi perfil y configuración comercial (siguiente)",
+  "actualizado": "2026-10-30 (hora de Ecuador)",
+  "etapa_actual": "Etapa 3 · Admin: gestión de clientes (siguiente)",
   "etapas": [
-    {"n":1,"titulo":"Reglas de compra: mínimo 6 persona natural / 12 comercial; condiciones de envío","estado":"hecha","commit":"23c08eb","imagenes":["img/f2e1_01_carrito_minimo6.png","img/f2e1_02_carrito_valido.png","img/f2e1_03_checkout_condiciones.png"]},
-    {"n":2,"titulo":"Mi perfil y configuración comercial (foto, biografía, cuenta suspendida)","estado":"pendiente"},
-    {"n":3,"titulo":"Admin: gestión de clientes (editar, suspender y reactivar, historial)","estado":"pendiente"},
-    {"n":4,"titulo":"Configuración central (app_settings)","estado":"pendiente"},
-    {"n":5,"titulo":"Número de contacto visible en Comercial y editable en Admin","estado":"pendiente"},
-    {"n":6,"titulo":"Rediseño visual de las pantallas restantes","estado":"pendiente"},
-    {"n":7,"titulo":"Rendimiento (fluidez)","estado":"pendiente"},
-    {"n":8,"titulo":"Revisión de seguridad","estado":"pendiente"},
-    {"n":9,"titulo":"APK de prueba (Comercial y Admin)","estado":"pendiente"}
+    {
+      "n": 1,
+      "titulo": "Reglas de compra: mínimo 6 persona natural / 12 comercial; condiciones de envío",
+      "estado": "hecha",
+      "commit": "23c08eb",
+      "imagenes": [
+        "img/f2e1_01_carrito_minimo6.png",
+        "img/f2e1_02_carrito_valido.png",
+        "img/f2e1_03_checkout_condiciones.png"
+      ]
+    },
+    {
+      "n": 2,
+      "titulo": "Mi perfil y configuración comercial (foto, biografía, cuenta suspendida)",
+      "estado": "hecha",
+      "commit": "e7310ac",
+      "imagenes": [
+        "img/f2e2_01_cuenta_accesos.png",
+        "img/f2e2_02_mi_perfil.png",
+        "img/f2e2_03_verificacion_apariencia.png",
+        "img/f2e2_04_cuenta_suspendida.png",
+        "img/f2e2_05_mensaje_admin.png"
+      ]
+    },
+    {
+      "n": 3,
+      "titulo": "Admin: gestión de clientes (editar, suspender y reactivar, historial)",
+      "estado": "pendiente"
+    },
+    {
+      "n": 4,
+      "titulo": "Configuración central (app_settings)",
+      "estado": "pendiente"
+    },
+    {
+      "n": 5,
+      "titulo": "Número de contacto visible en Comercial y editable en Admin",
+      "estado": "pendiente"
+    },
+    {
+      "n": 6,
+      "titulo": "Rediseño visual de las pantallas restantes",
+      "estado": "pendiente"
+    },
+    {
+      "n": 7,
+      "titulo": "Rendimiento (fluidez)",
+      "estado": "pendiente"
+    },
+    {
+      "n": 8,
+      "titulo": "Revisión de seguridad",
+      "estado": "pendiente"
+    },
+    {
+      "n": 9,
+      "titulo": "APK de prueba (Comercial y Admin)",
+      "estado": "pendiente"
+    }
   ],
   "decisiones": [
     "D1 Precios: mayorista → ópticas y optómetras; precio de venta → persona natural (solo los que faltaban).",

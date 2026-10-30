@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-10-30",
-  "etapa_actual": "Etapa 7 · Rendimiento (siguiente)",
+  "etapa_actual": "Etapa 8 · Seguridad (siguiente)",
   "etapas": [
     {
       "n": 1,
@@ -96,7 +96,13 @@
     {
       "n": 7,
       "titulo": "Rendimiento (fluidez)",
-      "estado": "pendiente"
+      "estado": "hecha",
+      "commit": "1e0529d",
+      "imagenes": [
+        "img/f2e7_01_catalogo_cristal.png",
+        "img/f2e7_07_actividad_pedidos.png",
+        "img/f2e7_10_admin_panel.png"
+      ]
     },
     {
       "n": 8,

@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-10-30",
-  "etapa_actual": "Etapa 6 · Rediseño visual completo (siguiente)",
+  "etapa_actual": "Etapa 7 · Rendimiento (siguiente)",
   "etapas": [
     {
       "n": 1,
@@ -70,7 +70,28 @@
     {
       "n": 6,
       "titulo": "Rediseño visual de las pantallas restantes",
-      "estado": "pendiente"
+      "estado": "hecha",
+      "commit": "6931cad",
+      "imagenes": [
+        "img/f2e6_01_catalogo_cristal.png",
+        "img/f2e6_02_hoja_filtros.png",
+        "img/f2e6_03_detalle_producto.png",
+        "img/f2e6_04_detalle_compra.png",
+        "img/f2e6_05_carrito.png",
+        "img/f2e6_06_checkout.png",
+        "img/f2e6_07_actividad_pedidos.png",
+        "img/f2e6_08_informar_pago.png",
+        "img/f2e6_09_fondo_luminancia.png",
+        "img/f2e6_10_admin_panel.png",
+        "img/f2e6_11_admin_pedidos_pagos.png",
+        "img/f2e6_12_admin_ajustes_pago.png",
+        "img/f2e6_13_admin_productos.png",
+        "img/f2e6_14_admin_tarifas.png",
+        "img/f2e6_15_admin_inventario.png",
+        "img/f2e6_16_admin_catalogo.png",
+        "img/f2e6_17_admin_auditoria.png",
+        "img/f2e6_18_admin_cuenta.png"
+      ]
     },
     {
       "n": 7,

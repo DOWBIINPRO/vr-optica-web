@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-30 (hora de Ecuador)",
-  "etapa_actual": "Etapa 5 · Número de contacto en Comercial (siguiente)",
+  "actualizado": "2026-10-30",
+  "etapa_actual": "Etapa 6 · Rediseño visual completo (siguiente)",
   "etapas": [
     {
       "n": 1,
@@ -56,7 +56,16 @@
     {
       "n": 5,
       "titulo": "Número de contacto visible en Comercial y editable en Admin",
-      "estado": "pendiente"
+      "estado": "hecha",
+      "commit": "a191920",
+      "imagenes": [
+        "img/f2e5_01_cuenta_contactar.png",
+        "img/f2e5_02_contactar_llamar_whatsapp.png",
+        "img/f2e5_03_mi_perfil_contacto.png",
+        "img/f2e5_04_checkout_contacto.png",
+        "img/f2e5_05_suspendida_contacto.png",
+        "img/f2e5_06_admin_contacto.png"
+      ]
     },
     {
       "n": 6,

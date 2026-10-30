@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-10-30",
-  "etapa_actual": "Etapa 9 · APK de vista previa (siguiente)",
+  "etapa_actual": "Fase 2 completa — pendiente pruebas en dispositivo y revisión de robin",
   "etapas": [
     {
       "n": 1,
@@ -113,7 +113,8 @@
     {
       "n": 9,
       "titulo": "APK de prueba (Comercial y Admin)",
-      "estado": "pendiente"
+      "estado": "hecha",
+      "commit": "54a5786"
     }
   ],
   "decisiones": [
@@ -125,5 +126,31 @@
     "D10 Contacto: +593 988416171.",
     "Pendiente: D4 (umbral de $300). Diferido: 222 precios mayoristas distintos del archivo (se mantienen los actuales)."
   ],
-  "apk": []
+  "apk": [
+    {
+      "app": "comercial",
+      "paquete": "com.optica.app.optica_app",
+      "version": "0.11.0+110",
+      "abi": "arm64-v8a",
+      "url": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/vr-optica-comercial-fase2-0.11.0-54a5786-arm64.apk",
+      "sha256": "db388d086dc71bf82bb6a3622356ff1dafd1f9008e96a69b392679d999c06c57",
+      "firma": "debug",
+      "dispositivo": "NO VERIFICADO",
+      "nombre": "VR Óptica Comercial 0.11.0 (arm64) · SHA-256 db388d086dc7…"
+    },
+    {
+      "app": "admin",
+      "paquete": "com.optica.app.optica_app.admin",
+      "version": "0.11.0+110",
+      "abi": "arm64-v8a",
+      "url": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/vr-optica-admin-fase2-0.11.0-54a5786-arm64.apk",
+      "sha256": "2cfb59821c91ab5feb154c7439389e22dd0b656cacd612188c6b6c3e0f287881",
+      "firma": "debug",
+      "dispositivo": "NO VERIFICADO",
+      "nombre": "VR Óptica Admin 0.11.0 (arm64) · SHA-256 2cfb59821c91…"
+    }
+  ],
+  "apk_release": "https://github.com/DOWBIINPRO/optica-app/releases/tag/apk-fase2-0.11.0-54a5786",
+  "apk_manifest": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/MANIFEST.json",
+  "apk_sha256sums": "https://github.com/DOWBIINPRO/optica-app/releases/download/apk-fase2-0.11.0-54a5786/SHA256SUMS.txt"
 }

@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-10-30 (hora de Ecuador)",
-  "etapa_actual": "Etapa 4 · Configuración central (siguiente)",
+  "etapa_actual": "Etapa 5 · Número de contacto en Comercial (siguiente)",
   "etapas": [
     {
       "n": 1,
@@ -42,8 +42,16 @@
     },
     {
       "n": 4,
-      "titulo": "Configuración central (app_settings)",
-      "estado": "pendiente"
+      "titulo": "Configuración central de la app Comercial (secciones, pagos, entregas, aviso, contacto, apariencia)",
+      "estado": "hecha",
+      "commit": "ebd16aa",
+      "imagenes": [
+        "img/f2e4_01_config_secciones.png",
+        "img/f2e4_02_config_comercial_visual.png",
+        "img/f2e4_03_inicio_aviso_un_catalogo.png",
+        "img/f2e4_04_catalogo_sin_selector.png",
+        "img/f2e4_05_checkout_entregas_condiciones.png"
+      ]
     },
     {
       "n": 5,

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>VR ÓPTICA · Avance Fase 2</title><link rel="stylesheet" href="style.css"><link rel="icon" href="logo.svg">
+<style>
+.et{border:1px solid #ccd;border-radius:10px;padding:10px 14px;margin:10px 0}
+.hecha{border-left:6px solid #2e7d32}.en_curso{border-left:6px solid #f9a825}.pendiente{border-left:6px solid #bbb;opacity:.8}
+.imgs{display:flex;gap:8px;overflow-x:auto}.imgs img{height:320px;border-radius:8px;border:1px solid #ddd}
+.tag{font-size:12px;padding:2px 8px;border-radius:10px;background:#eef}
+</style></head>
+<body><header><img src="logo.svg" alt="Logo VR ÓPTICA"><h1>VR ÓPTICA · Fase 2</h1></header>
+<nav><a href="index.html">Inicio</a><a href="fase2.html">Avance</a></nav>
+<main>
+<p id="act">Cargando…</p>
+<h2>Etapa actual</h2><p id="actual"></p>
+<h2>Etapas</h2><div id="etapas"></div>
+<h2>APK de prueba</h2><div id="apk"></div>
+<h2>Decisiones</h2><ul id="dec"></ul>
+<h2>Contacto</h2><p>WhatsApp / teléfono: <a href="tel:+593988416171">+593 988416171</a></p>
+</main>
+<footer>VR ÓPTICA · Guayaquil, Ecuador · Esta página se actualiza al terminar cada etapa.</footer>
+<script>
+fetch('fase2/estado.json?'+Date.now()).then(r=>r.json()).then(d=>{
+ const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ document.getElementById('act').textContent='Actualizado: '+d.actualizado;
+ document.getElementById('actual').textContent=d.etapa_actual;
+ const lbl={hecha:'Hecha',en_curso:'En curso',pendiente:'Pendiente'};
+ document.getElementById('etapas').innerHTML=d.etapas.map(x=>`<div class="et ${e(x.estado)}"><b>Etapa ${x.n}</b> · ${e(x.titulo)} <span class="tag">${lbl[x.estado]||e(x.estado)}</span>${x.commit?` · commit <code>${e(x.commit)}</code>`:''}${x.imagenes?`<div class="imgs">${x.imagenes.map(i=>`<a href="fase2/${e(i)}"><img src="fase2/${e(i)}" alt="vista previa"></a>`).join('')}</div>`:''}</div>`).join('');
+ document.getElementById('apk').innerHTML=d.apk.length?d.apk.map(a=>`<p><a href="${e(a.url)}">${e(a.nombre)}</a></p>`).join(''):'<p>Todavía no hay APK; se publicarán al final (etapa 9).</p>';
+ document.getElementById('dec').innerHTML=d.decisiones.map(x=>`<li>${e(x)}</li>`).join('');
+}).catch(()=>{document.getElementById('act').textContent='No se pudo cargar el estado.'});
+</script>
+</body></html>
